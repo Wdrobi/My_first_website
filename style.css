@@ -8,7 +8,7 @@ body{
 h1{
 font-size: 50px;
 }
-section{
+.flaxible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -35,4 +35,13 @@ section{
     background-image: url(image/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 50%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-left: 2%;
+    padding-right: 0.5%;
+    padding-bottom: 8%;
 }
